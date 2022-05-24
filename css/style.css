@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo&family=Montserrat&family=Oleo+Script+Swash+Caps:wght@700&display=swap');
+
+body{
+    background-image: url(../img/2641048.webp);
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+  
+}
+#container{
+   display:flex;
+   justify-content: center;
+  margin-top: 250px;
+   flex-direction: row;
+  
+  
+}
+#input{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    background-image: url(../img/icons8-country-64.png);
+    background-repeat:no-repeat;
+    background-color: #ccccff;
+    padding-left: 63px;
+    font-family: 'Macondo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color:#9999ff;
+    border:2px solid #9999ff;
+    margin-right: 10px;
+}
+
+#output{
+    width:200px;
+    height:50px;
+    font-size:20px;
+    background-color: #ccccff;
+    font-family: 'Macondo', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    background-image: url(../img/icons8-город-64.png);
+    background-repeat:no-repeat;
+    padding-left: 63px;
+    color:#9999ff;
+    border:2px solid #9999ff;
+}
+
