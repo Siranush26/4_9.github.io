@@ -14,14 +14,17 @@ function dropdown(){
         city=[];
     }
     let string="";
-   
+   /*
     for(  let i=0;i<city.length;i++)
     {      
           
           string=string+"<option>"+city[i]+"</option>";
           
     }
-
+  */
+    city.forEach(function(value) {
+    return string=string+"<option>"+value+"</option>";
+});
     string="<select>"+string+"</select"
     document.getElementById("output").innerHTML=string
 }
